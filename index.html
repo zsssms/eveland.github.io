@@ -11,9 +11,24 @@
   /* 이하 꾸밈 설정 */
   background: white;
 }
+
+video {
+	...
+    width : 100%;
+    height : 100vh;
+    object-fit : cover;
+}
+
+header {
+    ...
+    z-index: 1000;
+}
 </style>
+
 </head>
 <body>
+<video src="./bg.mp4" muted autoplay loop></video>
+<header>
 <div class="middle">
 <div style="margin: 15px 0px 15px 0px;">
   <img src="./EVELAND_LOGO.png" width="200px" height="200px"><br><font size="14px"><b>EveLand</b></font>
@@ -35,5 +50,6 @@
   <a href="https://blog.naver.com/ddq2345" target="_blank"><img src="./NaverBlog.png" width="900px"></a>
 </div>
 </div>
+</header>
 </body>
 </html>
